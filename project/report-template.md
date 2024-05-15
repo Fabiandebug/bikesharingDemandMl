@@ -58,23 +58,19 @@ Given more time with this dataset, I would focus on the following areas to poten
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
-|--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|-WeightedEnsemble_L2-|-RandomForest-|-LightGBM-|
+|initial|10|0.10|None|1.78855|
+|add_features|100|0.03|None|0.65380|
+|hpo|100|10.00|None|0.65380|
 
 
-model	hpo1	hpo2	hpo3	score
-0	initial	100	0.10	None	1.78855
-1	add_features	100	0.03	None	0.65380
-2	hpo	100	10.00	None	0.65380
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](/model_train_score.png)
 /model_test_score.png
 
 
